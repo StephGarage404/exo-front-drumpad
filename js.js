@@ -16,9 +16,9 @@ touches.forEach(function(touche){
     touche.addEventListener("mousedown", function(){
         //changer style  
         touche.classList.add("playing")
-
-        //jouer le son 
         
+        //jouer le son 
+        let codeClef = touche.dataset.key
     })
 })
 
