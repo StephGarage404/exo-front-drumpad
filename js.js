@@ -7,6 +7,10 @@ touches.forEach(function(touche){
         //enleve la class playing
         touche.classList.remove("playing")
     })
+    touche.addEventListener("mouseleave", function(){
+        //enleve la class playing
+        touche.classList.remove("playing")
+    })
 
 
     touche.addEventListener("mousedown", function(){
